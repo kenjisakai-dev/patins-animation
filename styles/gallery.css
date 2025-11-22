@@ -1,8 +1,5 @@
 .gallery {
-  width: 100%;
-  max-width: 80rem;
-  padding: 2.5rem 2rem;
-  margin-inline: auto;
+  padding-block: var(--py-lg);
 
   & header {
     text-align: center;

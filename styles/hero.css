@@ -4,10 +4,7 @@
   justify-content: space-between;
   overflow: hidden;
 
-  max-width: 80rem;
-  width: 100%;
-  padding: 2.5rem 2rem;
-  margin-inline: auto;
+  padding-block: var(--py-lg);
 
   & h1 {
     max-width: 40rem;

@@ -1,6 +1,6 @@
 .banner {
   width: 100%;
-  padding-block: 2.5rem;
+  padding-block: var(--py-lg);
   overflow: hidden;
 
   & .scroller {
