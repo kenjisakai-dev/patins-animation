@@ -1,5 +1,5 @@
 .gallery {
-  padding-block: var(--py-lg);
+  padding-top: var(--py-lg);
 
   & header {
     text-align: center;
@@ -10,7 +10,7 @@
   }
 
   & .content {
-    margin-top: 2rem;
+    margin-block: 2rem;
 
     display: grid;
     gap: 2rem;
@@ -100,6 +100,29 @@
         aspect-radio: 1/1;
         object-fit: cover;
         border-radius: 50%;
+      }
+    }
+  }
+
+  @media (width < 1280px) {
+    & .content {
+      margin-block: 1.5rem;
+      gap: 1.5rem;
+
+      grid-template-areas:
+        "A"
+        "B"
+        "C"
+        "D";
+
+      & figure {
+        &[data-delay] {
+          animation-range: none;
+        }
+
+        & > img {
+          height: 16rem;
+        }
       }
     }
   }
