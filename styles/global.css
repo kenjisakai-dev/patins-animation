@@ -17,6 +17,11 @@
   --background: #fafafa;
 
   --ff-base: "Montserrat", sans-serif;
+  --ff-syne: "Syne", sans-serif;
+  --ff-inter: "Inter", sans-serif;
+
+  --fw-semibold: 500;
+  --fw-bold: 700;
 
   --text-sm: 0.875rem;
   --text-base: 1rem;
@@ -38,18 +43,19 @@
     --text-xl: 2rem;
 
     --px-md: 1.5rem;
+
     --py-lg: 1.5rem;
   }
 }
 
 html,
 button {
-  font: 500 1rem / 150% var(--ff-base);
+  font: var(--fw-semibold) 1rem / 150% var(--ff-base);
 }
 
 h1,
 h2 {
-  font-family: "Syne", sans-serif;
+  font-family: var(--ff-syne);
 }
 
 h1 {

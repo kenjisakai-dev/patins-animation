@@ -24,7 +24,7 @@ header.top {
     position: relative;
 
     & span {
-      font: 500 0.75rem / 130% "Inter", sans-serif;
+      font: var(--fw-semibold) 0.75rem / 130% var(--ff-inter);
       position: absolute;
       top: -0.5rem;
       right: -0.5rem;
