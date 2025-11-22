@@ -23,12 +23,18 @@
   --text-lg: 2.5rem;
   --text-xl: 4rem;
 
-  --px-md: 2rem;
+  --px-md: 1.5rem;
 
   --py-sm: 1.25rem;
   --py-md: 2rem;
   --py-lg: 2.5rem;
   --py-xl: 4rem;
+}
+
+@media (width >= 1280px) {
+  :root {
+    --px-md: 2rem;
+  }
 }
 
 html,
