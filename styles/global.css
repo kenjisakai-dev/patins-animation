@@ -33,6 +33,8 @@
 
 @media (width < 1280px) {
   :root {
+    --text-xl: 2rem;
+
     --px-md: 1.5rem;
   }
 }
